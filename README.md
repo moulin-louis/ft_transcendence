@@ -16,5 +16,13 @@
 - 100/100
   
 ## Some Screenshot from the project:
-
-[login](https://github.com/moulin-louis/ft_transcendence/blob/main/login.png)
+Login page:
+![login](https://github.com/moulin-louis/ft_transcendence/blob/main/login.png)
+Home page:
+![home](https://github.com/moulin-louis/ft_transcendence/blob/main/home.png)
+Chat:
+![chat](https://github.com/moulin-louis/ft_transcendence/blob/main/chat.png)
+Game:
+![game](https://github.com/moulin-louis/ft_transcendence/blob/main/game.png)
+Settings:
+![settings](https://github.com/moulin-louis/ft_transcendence/blob/main/settings.png)
