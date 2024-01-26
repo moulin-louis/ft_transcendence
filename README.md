@@ -10,7 +10,7 @@
 - Back-end Framework: [NestJS](https://docs.nestjs.com/) + PostgreSQL database
 - Choice of ORM: [TypeORM](https://docs.nestjs.com/recipes/sql-typeorm)
 - Front-end Framework: [React](https://devdocs.io/react/) + Bootstrap
-- Linting rules: Typescript adaptation of [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript
+- Linting rules: Typescript adaptation of [Airbnb JavaScript Style Guide](https://github.com/airbnb/javascript)
   
 ## Note:
 - 100/100
