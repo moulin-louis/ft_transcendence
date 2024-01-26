@@ -23,7 +23,5 @@
 
 [Modern Full-Stack Development with Nest.js, React, TypeScript, and MongoDB](https://auth0.com/blog/modern-full-stack-development-with-nestjs-react-typescript-and-mongodb-part-1/)
 
-## TODO
+## Some Screenshot from the project:
 
-- [ ] Add a virtual machine for dev
-- [ ] Add a gui interface for postgre
