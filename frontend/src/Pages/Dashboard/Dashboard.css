@@ -1,0 +1,32 @@
+.blue {
+  --bs-progress-bar-bg: #304FFD;
+}
+
+.orange {
+  --bs-progress-bar-bg: #FF965D;
+}
+
+.yellow {
+  --bs-progress-bar-bg: #FFD240;
+}
+
+.green {
+  --bs-progress-bar-bg: #49C96D;
+}
+
+.heading-all-games {
+  margin-bottom: 25px;
+}
+
+.ach-margin-zero {
+  margin: 0px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.dashboard-button-more {
+  margin-right: 0px;
+  padding: 15px 30px;
+  width: fit-content;
+  margin-top: 15px;
+}

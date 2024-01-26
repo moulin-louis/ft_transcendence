@@ -1,0 +1,25 @@
+version: "3.8"
+
+services:
+ server:
+  build: .
+  container_name: server
+  depends_on:
+   - database
+  env_file: .env
+  networks:
+   - ft_transcendence
+  ports:
+   - "3000:3000"
+  restart: always
+
+ database:
+  container_name: database
+  env_file: .env
+  image: postgres:latest
+  networks:
+   - ft_transcendence
+  restart: always
+
+networks:
+  ft_transcendence:

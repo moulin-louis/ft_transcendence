@@ -1,0 +1,169 @@
+.friends-area {
+    padding: 30px;
+    background: #fff;
+    border-radius: 20px;
+    filter: drop-shadow(-4px 8px 24px rgba(44, 63, 88, 0.02));
+}
+
+.friends-table {
+    margin-top: 20px;
+}
+
+.table-grid {
+    background: #fff;
+}
+
+.table-grid .rdg-cell[role="columnheader"] {
+    border-bottom: 1px solid #E8E9EB;
+    text-transform: uppercase;
+}
+
+.table-grid .rdg-cell {
+    background: #fff;
+    color: #3F434A;
+    outline: none;
+    padding-left: 0;
+}
+
+.friends-area .nav-tabs .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 30px;
+    color: #3F434A;
+}
+
+.friends-area .nav-tabs .nav-link.active {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 30px;
+    color: #3F434A;
+}
+
+.mini-badge-friends {
+    background: #E8E9EB;
+    color: #8A9099;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+}
+
+.friends-margin-top {
+    margin-top: 30px;
+}
+
+.table-header {
+    font-weight: bold;
+    border-bottom: 1px solid #E8E9EB;
+    text-transform: uppercase;
+    padding: 10px 0;
+    margin: 0px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #8A9099;
+}
+
+.table-header .col {
+    padding-left: 0;
+}
+
+.avatar-friends {
+    padding: 2px;
+    border: 1px rgba(198, 201, 204, 1);
+    border-radius: 40px;
+    border-style: dashed;
+    height: 40px !important;
+    width: 40px !important;
+    object-fit: cover;
+    object-position: center;
+}
+
+.game-avatar-mini {
+    border-radius: 100px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    width: 60px;
+}
+
+.online-status-friends-page {
+    background-color: #49c96d;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    bottom: 0px;
+    height: 10px;
+    position: absolute;
+    right: 8px;
+    width: 10px;
+}
+
+.friends-container-img {
+    height: 40px;
+}
+
+.friends-inline-user {
+    display: flex;
+    align-items: center;
+}
+
+.friends-margin-10 {
+    margin: 0 10px;
+}
+
+.username-margin {
+    margin-left: 10px;
+}
+
+.user-row-bottom {
+    background: #ebf1f369;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0px;
+}
+
+.col-tight-al {
+    text-align: right;
+}
+
+.achievements-full-width {
+    width: 100%;
+}
+
+.red-button {
+    background-color: #FD7972!important;
+}
+
+@media screen and (max-width: 600px) {
+    .table-mob {
+        display: none;
+    }
+
+    .friends-inline-user {
+        display: block !important;
+    }
+
+    .friends-mob-user {
+        display: flex !important;
+        align-items: center;
+        margin-bottom: 15px;
+    }
+
+    .friends-mob-card {
+        padding: 20px 15px;
+    }
+
+    .friends-avatar-mob {
+        border-radius: 70px;
+        height: 70px !important;
+        width: 70px !important;
+    }
+    .friends-nickname-mob {
+        font-size: 18px;
+        margin-left: 20px;
+        text-transform: capitalize;
+        font-weight: 700;
+    }
+}

@@ -1,0 +1,282 @@
+.game-board {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  background: #000000;
+  border-radius: 25px;
+  margin: 30px 0;
+}
+
+/*.paddle {*/
+/*  position: absolute;*/
+/*  width: 7px;*/
+/*  height: 50px;*/
+/*  background: #FFFFFF;*/
+/*  border-radius: 10px;*/
+/*}*/
+
+.paddle {
+  position: absolute;
+  width: 10px;
+  height: 100px;
+  background-color: rgb(77, 184, 77);
+  border-radius: 5px;
+}
+
+.left {
+  left: 0;
+  top: 150px;
+}
+
+.right {
+  right: 0;
+  top: 150px;
+}
+
+.lobby {
+  position: relative;
+  width: 300px;
+  height: 50px;
+  margin: 0 auto;
+}
+
+.score {
+  position: absolute;
+  color: rgba(255, 255, 255, 0.3);
+  top: 25%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 140px;
+}
+
+.heading-button {
+  background-color: #04809F;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.play-button-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 5px;
+  color: #fff;
+  display: inline-flex;
+}
+
+.play-button-icon {
+  display: inline-flex;
+  margin-right: 15px;
+}
+
+.game-over {
+  margin: auto;
+  text-align: center;
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.game-over-head {
+  font-size: 48px;
+}
+
+.game-over-back {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.game-inline-card {
+  display: flex;
+}
+
+.game-vertical-align {
+  display: contents;
+}
+
+.game-type-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #3F434A;
+}
+
+.game-type-box {
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  margin: 20px 0px;
+}
+
+.game-auto-margin {
+  margin: auto;
+}
+
+.game-avatar {
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.game-nickname-card {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #3F434A;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.history-mini-score {
+  font-size: 24px;
+}
+
+.cursor-pointer-game {
+  cursor: url('./icons/Racquet.svg'), auto;
+}
+
+.game-avatar-connect:hover {
+  border: 1px solid #04809F;
+}
+
+.connect-text {
+  color: #04809F;
+}
+
+.text-without-games {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #3F434A;
+}
+
+.start-button {
+  background: #ebf1f3;
+  padding: 8px 70px;
+  color: #04809F;
+  margin-top: 30px;
+  border-radius: 14px;
+}
+
+.newgame-text {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+  margin-right: 5px;
+  display: inline-flex;
+}
+
+.full-width-cards {
+  width: 100%;
+}
+
+.chat-popup-new-game {
+  margin-top: 30px;
+  margin-bottom: 20px !important;
+}
+
+.game-popup-big-head {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  color: #3F434A;
+}
+
+.random-choose-button {
+  padding: 0px 15px;
+  border-radius: 15px;
+  margin-left: auto;
+  background: #ebf1f3;
+  color: #04809F;
+  font-size: 12px;
+}
+
+.disabled-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  margin: 50px 12px;
+  padding: 40px;
+  text-align: center;
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 22px;
+  cursor: pointer;
+}
+
+.position-card-game {
+  position: relative
+}
+
+.margin-right-card-game {
+  margin-right: 15px;
+}
+
+.inline-game-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.margin-auto-history {
+  margin: auto!important;
+}
+
+.game-page-scroll {
+  overflow: hidden;
+}
+
+.game-board-size-row {
+  margin: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .mobile-game-card {
+    margin: 0px;
+    display: block;
+  }
+
+  .game-auto-margin {
+    margin-right: 0px !important;
+    margin: 0;
+  }
+/* 
+  .game-nickname-card {
+    margin-right: 20px;
+  } */
+
+  .close-icon {
+    position: absolute;
+    top: 10px;
+    right: 22px;
+    cursor: pointer;
+    width: 40px;
+  }
+
+  .disabled-overlay {
+    margin: 0px 12px;
+  }
+}
